@@ -1,0 +1,25 @@
+{
+    "name": "chub",
+    "description": "A client library to interface with the Copyright Hub RESTful services",
+    "version": "0.3.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/openpermissions/javascript-client.git"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+        "superagent": "0.21.0",
+        "bluebird": "2.4.2"
+    },
+    "devDependencies": {
+        "mocha": "^2.1.0",
+        "should": "^4.4.2",
+        "sinon": "^1.12.2",
+        "jshint": "latest",
+        "mocha-bamboo-reporter": "latest"
+    },
+    "scripts": {
+        "test": "mocha test/",
+        "lint": "jshint lib/**.js"
+    }
+}
