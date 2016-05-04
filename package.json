@@ -1,7 +1,7 @@
 {
     "name": "chub",
-    "description": "A client library to interface with the Copyright Hub RESTful services",
-    "version": "0.3.0",
+    "description": "A client library to interface with the Open Permissions Platform RESTful services",
+    "version": "0.3.1",
     "repository": {
         "type": "git",
         "url": "git://github.com/openpermissions/javascript-client.git"

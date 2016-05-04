@@ -194,7 +194,7 @@ describe('accounts', function () {
 
   describe('updateUserRole', function() {
     var data = {
-      'role_id': 'role1'
+      'role': 'role1'
     };
 
     it('should perform a put request when updating a user organisation role', function() {
@@ -287,7 +287,7 @@ describe('accounts', function () {
 
   describe('updateJoinOrganisation', function() {
     var data = {
-      'join_state': 'approved'
+      'state': 'approved'
     };
     it('should perform a put request when updating a user organisation join', function() {
       var result = accountsClient.updateJoinOrganisation('org1', 'user1', 'approved');
