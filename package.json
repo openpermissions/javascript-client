@@ -1,7 +1,7 @@
 {
     "name": "chub",
     "description": "A client library to interface with the Open Permissions Platform RESTful services",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "repository": {
         "type": "git",
         "url": "git://github.com/openpermissions/javascript-client.git"
