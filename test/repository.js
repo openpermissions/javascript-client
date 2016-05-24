@@ -48,7 +48,7 @@ describe('repository', function () {
 
       result.should.be.equal('get result');
       api.get.calledOnce.should.be.true;
-      api.get.calledWith('repositories/repositoryid/offers', null, repoClient.token).should.be.true;
+      api.get.calledWith('repositories/repositoryid/offers?page_size=1000', null, repoClient.token).should.be.true;
     });
   });
 
